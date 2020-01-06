@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Test",
+    "contacts": [
+      "test",
+      "test",
+      "facebook/sdfsdf"
+    ],
+    "profilePicture": "./assets/images/team-2.jpg"
+  },
+  {
+    "name": "Test",
+    "contacts": [
+      "test",
+      "test",
+      "facebook/sdfsdf"
+    ],
+    "profilePicture": "./assets/images/team-2.jpg"
+  },
+  {
+    "name": "Test",
+    "contacts": [
+      "test",
+      "test",
+      "facebook/sdfsdf"
+    ],
+    "profilePicture": "./assets/images/team-2.jpg"
+  },
+  {
+    "name": "Test",
+    "contacts": [
+      "test",
+      "test",
+      "facebook/sdfsdf"
+    ],
+    "profilePicture": "./assets/images/team-2.jpg"
+  }
+]

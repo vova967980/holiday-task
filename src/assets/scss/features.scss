@@ -1,0 +1,57 @@
+@import "break-points";
+
+
+#Features{
+  .container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
+
+.descriptionTextContainer{
+  text-align: center;
+  margin-bottom: 50px;
+  .descriptionContent{
+    margin-top: 30px;
+    padding: 0 15px;
+    h5{
+      text-transform: uppercase;
+      font-size: 14px;
+      color: #2d3033;
+      font-weight: 700;
+      margin: 10px 0;
+    }
+    p{
+      font-size: 14px;
+      line-height: 22.4px;
+      color: #6c7279;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+@media screen and (min-width: $md){
+  .container{
+    .descriptionTextContainer{
+      width: 345px;
+    }
+  }
+}
+
+@media screen and (min-width: $lg){
+  .container{
+    .descriptionTextContainer{
+      width: 300px;
+    }
+  }
+}
+
+@media screen and (min-width: $xl){
+  .container{
+    width: 1170px !important;
+    .descriptionTextContainer{
+      width: 360px;
+    }
+  }
+}

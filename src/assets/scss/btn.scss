@@ -1,0 +1,11 @@
+@import "theme";
+
+.btn{
+  background-color: $accent-color;
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 15px 40px;
+  border-radius: 2px;
+}
