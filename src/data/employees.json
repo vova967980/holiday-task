@@ -1,38 +1,50 @@
 [
   {
-    "name": "Test",
+    "fullName": "Ruth Wood",
+    "role": "Founder, CEO",
     "contacts": [
-      "test",
-      "test",
-      "facebook/sdfsdf"
+      "http://facebook.com",
+      "http://twitter.com",
+      "http://linkedin.com",
+      "http://google-plus.com",
+      "http://dribbble.com"
+    ],
+    "profilePicture": "./assets/images/team-1.jpg"
+  },
+  {
+    "fullName": "Timothy Reed",
+    "role": "Co-Founder, Developer",
+    "contacts": [
+      "http://facebook.com",
+      "http://twitter.com",
+      "http://linkedin.com",
+      "http://google-plus.com",
+      "http://dribbble.com"
     ],
     "profilePicture": "./assets/images/team-2.jpg"
   },
   {
-    "name": "Test",
+    "fullName": "Victoria Valdez",
+    "role": "UI Designer",
     "contacts": [
-      "test",
-      "test",
-      "facebook/sdfsdf"
+      "http://facebook.com",
+      "http://twitter.com",
+      "http://linkedin.com",
+      "http://google-plus.com",
+      "http://dribbble.com"
     ],
-    "profilePicture": "./assets/images/team-2.jpg"
+    "profilePicture": "./assets/images/team-3.jpg"
   },
   {
-    "name": "Test",
+    "fullName": "Beverly Little",
+    "role": "Data Scientist",
     "contacts": [
-      "test",
-      "test",
-      "facebook/sdfsdf"
+      "http://facebook.com",
+      "http://twitter.com",
+      "http://linkedin.com",
+      "http://google-plus.com",
+      "http://dribbble.com"
     ],
-    "profilePicture": "./assets/images/team-2.jpg"
-  },
-  {
-    "name": "Test",
-    "contacts": [
-      "test",
-      "test",
-      "facebook/sdfsdf"
-    ],
-    "profilePicture": "./assets/images/team-2.jpg"
+    "profilePicture": "./assets/images/team-4.jpg"
   }
 ]

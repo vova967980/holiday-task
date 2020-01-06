@@ -1,12 +1,17 @@
 @import "theme";
+@import "break-points";
 
-#OurTeam{
+#ourTeam{
+
   .container{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
     .person{
       max-width: 270px;
       text-align: center;
+      margin: 0 10px 50px 10px;
       .personContent{
         margin-top: 20px;
         h4{
@@ -51,10 +56,63 @@
           background-color: $accent-color;
           border-color: $accent-color !important;
           color: white;
-
         }
       }
     }
   }
 }
 
+@media screen and (min-width: $md){
+  #ourTeam{
+    .container{
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+  }
+}
+
+@media screen and (min-width: $lg){
+  #ourTeam{
+    .container{
+      justify-content: space-between;
+      .person{
+        max-width: 212.5px;
+        img{
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1024px){
+  #ourTeam{
+    .container{
+      .person{
+        margin-bottom: 0;
+        ul{
+          justify-content: left;
+          li+li{
+            margin-left: 5px;
+          }
+        }
+        .personContent{
+          text-align: left;
+        }
+      }
+    }
+  }
+}
+
+
+@media screen and (min-width: $xl){
+  #ourTeam{
+    .container{
+      .person{
+        max-width: 262.5px;
+      }
+    }
+  }
+}

@@ -174,9 +174,9 @@
 }
 
 @media screen and (min-width: $md){
-  .container {
+  /*.container {
     width: 750px;
-  }
+  }*/
   .bannerText {
     padding-top: 25% !important;
     h1{
@@ -189,9 +189,9 @@
 }
 
 @media screen and (min-width: $lg){
-  .container {
+/*  .container {
     width: 970px !important;
-  }
+  }*/
   .containerInBanner{
     width: 83%;
     margin-left: 8.3%;

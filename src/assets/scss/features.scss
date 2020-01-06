@@ -1,7 +1,7 @@
 @import "break-points";
 
 
-#Features{
+#features{
   .container{
     display: flex;
     justify-content: space-between;
@@ -49,7 +49,6 @@
 
 @media screen and (min-width: $xl){
   .container{
-    width: 1170px !important;
     .descriptionTextContainer{
       width: 360px;
     }

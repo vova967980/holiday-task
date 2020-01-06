@@ -11,12 +11,15 @@ body {
   flex-flow: column;
   min-height: 100vh;
   overflow-x:hidden;
+  section{
+    scroll-margin-top: 74px;
+  }
 }
 
 * {
-  box-sizing: border-box;
+
   scroll-behavior: smooth;
-  scroll-margin-top: 74px;
+  box-sizing: border-box;
 }
 
 
@@ -36,6 +39,23 @@ a{
 }
 
 a:hover, a:active{
-
   transition: background-color, color, 0.3s;
+}
+
+@media screen  and (min-width: $md){
+  .container{
+    width: 750px;
+  }
+}
+
+@media screen  and (min-width: $lg){
+  .container{
+    width: 970px;
+  }
+}
+
+@media screen  and (min-width: $xl){
+  .container{
+    width: 1170px;
+  }
 }
