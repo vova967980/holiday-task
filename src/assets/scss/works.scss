@@ -5,11 +5,12 @@
 
   display: flex;
   flex-wrap: wrap;
-  margin: 0 -0.5px;
+
     .workContainer{
+      box-shadow: 0 0 0 1px #fff;
       cursor: pointer;
       overflow: hidden;
-      border: 0.5px solid white;
+
       .image{
         transition: 0.5s;
       }

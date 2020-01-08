@@ -3,6 +3,8 @@
 @import "features";
 @import "works";
 @import "ourteam";
+@import "testimonials";
+@import "download";
 
 body {
   font-family: 'Raleway', sans-serif;
@@ -40,6 +42,10 @@ a{
 
 a:hover, a:active{
   transition: background-color, color, 0.3s;
+}
+
+.btn:hover{
+  background-color: #f12a21;
 }
 
 @media screen  and (min-width: $md){
