@@ -79,7 +79,7 @@ const nextSlide = function(){
 };
 
 const restartInterval = function () {
-    timeout = setTimeout(startInterval,10000);
+    timeout = setTimeout(startInterval,5000);
 };
 const startInterval = function(){
     interval = setInterval(nextSlide,5000);
