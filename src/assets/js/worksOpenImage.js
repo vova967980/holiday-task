@@ -1,3 +1,5 @@
+'use strict';
+
 let images = document.getElementsByClassName("workContainer");
 let imagesOpen = document.getElementsByClassName("imageOpen");
 let currentImage = document.getElementById("currentImageWorks");

@@ -1,3 +1,5 @@
+'use strict';
+
 let header=document.getElementById("header");
 window.onscroll = function() {
     let scrollTop = document.documentElement.scrollTop || document.body.scrollTop;

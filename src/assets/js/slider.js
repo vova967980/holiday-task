@@ -1,3 +1,5 @@
+'use strict';
+
 let inputsContainer = document.querySelector('.inputsContainer');
 let containerSlides = document.getElementById('containerSlides');
 let currentIndex = 0;

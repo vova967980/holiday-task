@@ -1,3 +1,5 @@
+'use strict';
+
 const loadData = async function(){
     try {
         const response = await fetch("data/employees.json");

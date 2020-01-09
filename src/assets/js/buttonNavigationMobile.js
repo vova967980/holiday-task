@@ -1,3 +1,5 @@
+'use strict';
+
 function closeMenu(){
     navigation[0].classList.remove("open");
     middleLine[0].classList.remove("visibilityHidden");
