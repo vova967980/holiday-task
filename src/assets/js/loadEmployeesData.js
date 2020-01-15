@@ -1,40 +1,50 @@
 'use strict';
 
-const loadData = async function(){
+const loadData = async () =>{
     try {
         const response = await fetch("data/employees.json");
         const data = await response.json();
-        for (let i = 0; i < data.length; i++){
-            appendEmployeeItem(data[i]);
-        }
+
+        return await data;
     }
     catch (e) {
         console.log(e);
     }
 };
 
-loadData();
+loadData().then(appendEmployeeItem);
 
+/*for(let value of loadData()){
+    appendEmployeeItem(value);
+}*/
+//==========
 const iconsContacts =['fa-facebook','fa-twitter','fa-linkedin','fa-google-plus','fa-dribbble'];
 
 function createEmployeeItem(employee) {
+
     const personItemContainer = document.createElement('div');
     personItemContainer.classList.add('person');
 
+
+    const personImageContainer = document.createElement('div');
+    personImageContainer.classList.add('personImageContainer');
     const personImage = document.createElement('img');
-    personImage.src = employee.profilePicture;
+    personImage.src = employee.profilePicture ;
+    personImage.onerror = function(){
+        personImage.src = 'https://cdn2.iconfinder.com/data/icons/ios-7-icons/50/user_male2-512.png';
+    };
 
     const personContentContainer = document.createElement('div');
     personContentContainer.classList.add('personContent');
 
     const personFullName = document.createElement('h4');
-    personFullName.innerText = employee.fullName;
+    personFullName.innerText = employee.fullName || '';
 
     const personRole = document.createElement('h5');
-    personRole.innerText = employee.role;
+    personRole.innerText = employee.role || '';
 
     const personText = document.createElement('p');
-    personText.innerText = "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo.";
+    personText.innerText = employee.personText || '';
 
     const personContactsContainer = document.createElement('ul');
 
@@ -51,7 +61,9 @@ function createEmployeeItem(employee) {
         contactLink.appendChild(icon);
     }
 
-    personItemContainer.appendChild(personImage);
+    personImageContainer.appendChild(personImage);
+
+    personItemContainer.appendChild(personImageContainer);
     personItemContainer.appendChild(personContentContainer);
     personItemContainer.appendChild(personContactsContainer);
 
@@ -61,6 +73,9 @@ function createEmployeeItem(employee) {
     return personItemContainer;
 }
 
-function appendEmployeeItem(employee) {
-    document.getElementById('employees').appendChild(createEmployeeItem(employee));
+function appendEmployeeItem(employees) {
+    let container =  document.getElementById('employees');
+    for (let employee of employees){
+        container.appendChild(createEmployeeItem(employee));
+    }
 }

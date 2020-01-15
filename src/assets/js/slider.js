@@ -1,5 +1,7 @@
 'use strict';
 
+
+
 let inputsContainer = document.querySelector('.inputsContainer');
 let containerSlides = document.getElementById('containerSlides');
 let currentIndex = 0;
@@ -17,6 +19,8 @@ const slides = [
         author: "Susan Sims, Interaction Designer at XYZ"
     },
 ];
+
+
 
 for (let i = 0; i<slides.length; i++){
     let slide = document.createElement('li');

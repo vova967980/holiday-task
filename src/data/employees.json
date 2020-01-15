@@ -3,13 +3,13 @@
     "fullName": "Ruth Wood",
     "role": "Founder, CEO",
     "contacts": [
-      "http://facebook.com",
       "http://twitter.com",
       "http://linkedin.com",
       "http://google-plus.com",
       "http://dribbble.com"
     ],
-    "profilePicture": "./assets/images/team-1.jpg"
+    "profilePicture": "./assets/images/team-1.jpg/ERROR",
+    "personText": "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo."
   },
   {
     "fullName": "Timothy Reed",
@@ -21,10 +21,11 @@
       "http://google-plus.com",
       "http://dribbble.com"
     ],
-    "profilePicture": "./assets/images/team-2.jpg"
+    "profilePicture": "./assets/images/team-2.jpg",
+    "personText": "Fusce dapibus, tes. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo."
   },
   {
-    "fullName": "Victoria Valdez",
+
     "role": "UI Designer",
     "contacts": [
       "http://facebook.com",
@@ -33,11 +34,12 @@
       "http://google-plus.com",
       "http://dribbble.com"
     ],
-    "profilePicture": "./assets/images/team-3.jpg"
+    "profilePicture": "https://images.unsplash.com/photo-1466112928291-0903b80a9466?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80",
+    "personText": "Fusce dapiimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo."
   },
   {
     "fullName": "Beverly Little",
-    "role": "Data Scientist",
+
     "contacts": [
       "http://facebook.com",
       "http://twitter.com",
@@ -45,6 +47,7 @@
       "http://google-plus.com",
       "http://dribbble.com"
     ],
-    "profilePicture": "./assets/images/team-4.jpg"
+    "profilePicture": "https://images.unsplash.com/photo-1518806118471-f28b20a1d79d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80",
+    "personText": "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermeus ac cursus commodo, tortor mauris condimentum nibh, ut fermeus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Maecenas sed diam eget risus varius blandit sit amet non magna. Nullam quis risus eget urna mollis ornare vel eu leo."
   }
 ]
